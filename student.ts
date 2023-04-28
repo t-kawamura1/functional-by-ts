@@ -93,7 +93,7 @@ function selector(country: string, school: string) {
   }
 }
 
-const findStudentsBy = function (friends: Student[], selectorFn) {
+const findStudentsBy = function (friends: Student[], selectorFn: any) {
   return friends.filter(selectorFn)
 }
 
